@@ -1,3 +1,4 @@
-require './app'
+# require './app'
+require './config/environment'
 
 run App
