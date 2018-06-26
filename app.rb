@@ -7,7 +7,7 @@ class App < Sinatra::Base
 end
 
 get '/nutricious' do
-  <h1> "Has lots of fiber"</h1>
+   "Has lots of fiber"
 end
 
 end
