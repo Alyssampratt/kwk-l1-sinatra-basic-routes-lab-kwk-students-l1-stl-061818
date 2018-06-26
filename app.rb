@@ -7,7 +7,7 @@ class App < Sinatra::Base
 end
 
 get '/nutricious' do
-   "Has lots of fiber"
+ "Has lots of fiber".upcase
 end
 
 end
