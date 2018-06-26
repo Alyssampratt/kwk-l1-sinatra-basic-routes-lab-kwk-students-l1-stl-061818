@@ -3,11 +3,19 @@ require 'sinatra'
 class App < Sinatra::Base
   
   get '/' do 
-    "I love Bok Choy"
+    "Hello, World".upcase
 end
 
-get '/nutricious' do
- "Has lots of fiber".upcase
+get '/name' do
+ "Alyssa Pratt"
 end
+
+get '/hometown' do
+  "Barnhart"
+end
+
+get '/favorite-song' do
+  "hard 2 face reality"
+end 
 
 end
